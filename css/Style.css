@@ -73,3 +73,21 @@ footer{
     background-color: #ff9900;
     color: white;
 }
+
+@media (max-with:1200px){
+    .grid{
+         grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
+@media (max-with:720px){
+    .grid{
+         grid-template-columns: 1fr 1fr;
+    }
+    
+}@media (max-with:450px){
+    .grid{
+         grid-template-columns: 1fr;
+    }
+    
+}
